@@ -1,0 +1,39 @@
+TODO (game logic):
+    generalize the setter function of Grid. DONE
+
+    25 lines!
+
+    move history for undo
+
+    change every part that takes player as input
+    
+    Castling/other movements
+
+    show possible moves when select a piece??
+	refactor possible move into pieces
+
+    seperate makeAMove function such that it can ask for user input when promotion happens
+
+    user custom pieces? 
+
+    seperate different components in the view if it is the extension of Swing objects
+
+TODO (gameplay):
+    modes: standard board, board with custom piece, 
+        user defined board
+    
+TODO (organization):
+    package classes based on group
+
+    
+note3: why getting a WebGL context
+
+-----------------------------------
+LOG:
+7 Seperate different components of MVC into different packages
+6 Implemented the undo functioinality
+5 Finished the implementation of the GUI
+4 Refactored checkEndCondition/makeAMove and their helper functions corresponding to the change of possibleMoves storage and addition of moveHistory
+3 Extracted Move class from chessGame
+2 Capsulated JButton for grids such that it contains the grid's location
+1 Refactored the chess grid such that it only serves the functions of setting grid and getting grid.
