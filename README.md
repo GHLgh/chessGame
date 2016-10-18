@@ -6,7 +6,7 @@ A basic chess game developed based on java
   * Perform most of the pieces' movements such as "promotion" and "En passant" (although "castling" and other non-intuitive movements are not included).
   * Prompt possible moves and notify if the player is checked.
   * Terminate the game when there is stalemate or checkmate.
-* Simple logging of players' actions
+* Simple logging of players' actions (which can only store up to five actions temporarily)
 * Operations to manipulate the game such as undo and restart
 * Custom game with two custom pieces
   * Apprentice: A class that inherits Pawn's logic, with additional ability to perform "En passant" on every turn. It can only promote to wizard class.
